@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgb(250, 145, 145);
+    color: black;
+
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+#typed-text{
+    color: aqua;
+}
+
+.brand img{
+    width: 55px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 25px auto;
+    width: 72%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('bg.jpg');
+
+    
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 15px;
+
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songItemContainer{
+    margin-top: 25px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.songItem img{
+    width: 70px;
+    margin: 0px 5px;
+    border-radius: 15px;
+}
+
+.timestamp{
+    margin: 0px 15px;
+
+}
+
+.timestamp i {
+    cursor: pointer;
+    
+}
+
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.volume_icons{
+    position: absolute;
+    right: 20vw;
+}
+#myVolumeBar{
+    position: absolute;
+    right: 9.5vw;
+    cursor: pointer;
+
+}
